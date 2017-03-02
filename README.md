@@ -132,9 +132,9 @@ The *view* key in the *routerSettings* is the view rendered by the controller an
 5. ""  
 
 ###Initializing the development process
-devlpr listens on port 4000.
+devlpr listens on port 4000. Use *npm start* command to start the web server.
 
-Go to *localhost:4000* and build the entire project or just another controller, viewhandler, form, searchbar.
+Go to *localhost:4000* in the web browser and build the entire project or just another controller, viewhandler, form, searchbar.
 The generated project listens on port 3000.
 
 ###Initializing the JSON files
