@@ -2,6 +2,7 @@
 
 ##Documentation
 The inputs are parsed using two JSON files
+
 1. *parentHandler.json* : Contains data required for frontend development.
 2. *appHandler.json* : Contains data for backend development.
 
