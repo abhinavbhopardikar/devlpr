@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title><%=title%></title>
+    <link rel='stylesheet' href='/stylesheets/style.css' />
+    <link href='http://fonts.googleapis.com/icon?family=Material+Icons' rel='stylesheet'>
+    <link type='text/css' rel='stylesheet' href='/stylesheets/materialize.min.css'  media='screen,projection'/>
+    <script type='text/javascript' src='https://code.jquery.com/jquery-2.1.1.min.js'></script>
+    <script src='/javascripts/materialize.js'></script>
+    <script src='/javascripts/dashboard.js'></script>
+    <meta name='viewport' content='width=device-width, initial-scale=1.0'/>
+  </head>
+  <body>
+    <nav>
+      <div class='nav-wrapper'>
+      <a href='#' class='brand-logo'>devlpr</a>
+    </div>
+    </nav>
+
+    <div class='row'>
+    <div class='container'>
+      <h4><%=title%> >> <%=view%>.ejs</h4>
+      <br>
+    <form class='col s12' action='/compBuilder' method='post'>
+    <div class='row'>
+      <div class="input-field col s6">
+           <input disabled id="view_file" type="text" name="view_file" class="validate" value='<%=view%>'>
+           <label for="view_file">filename of view</label>
+      </div>
+      <div class="input-field col s6">
+           <input id="bodyBg" type="text" name="bodyBg" class="validate">
+           <label for="bodyBg">background color</label>
+      </div>
+      <div class="input-field col s6">
+           <input id="body_class" type="text" name="body_class" class="validate">
+           <label for="body_class">class</label>
+      </div>
+      <div class="input-field col s6">
+           <input id="title" type="text" name="title" class="validate">
+           <label for="title">title</label>
+      </div>
+      <div class="input-field col s6">
+           <input id="header" type="text" name="header" class="validate">
+           <label for="header">header</label>
+      </div>
+    </div>
+    <br>
+      <div class="row">
+      <h5>Navbar</h5>
+      <div class="input-field col s6">
+           <input id="nav_class" type="text" name="nav_class" class="validate">
+           <label for="nav_class">class</label>
+      </div>
+      <div class="input-field col s6">
+           <input id="logo" type="text" name="logo" class="validate">
+           <label for="logo">logo / navbar title</label>
+      </div>
+      <div class="input-field col s6">
+           <input id="navBg" type="text" name="navBg" class="validate">
+           <label for="navBg">background color</label>
+      </div>
+    </div>
+    <br>
+    <h5>Navbar > elements</h5>
+    <div class="row">
+      <div class="input-field col s6" id="nav_links">
+      <input id="no_of_links" type="number" min='2' max='5' name="no_of_links" class="validate">
+      <label for="no_of_links">enter no of links</label>
+    </div>
+    </div>
+    <div class="row">
+      <a class="btn" onclick="addLink()" id="add_link">add link(s)</a>
+    </div>
+    <div class="row">
+      <a class="btn" onclick="addDropDown()" id='add_drpDown'>add dropdown list</a>
+    </div>
+    <!--<div class="row">
+      <a class="btn" onclick="addNavForm()">add search bar / form</a>
+    </div>-->
+    <br>
+    <div id="drp_links">
+    </div>
+    <br>
+    <!--<div id="search_bar">
+
+    </div>-->
+
+      <div class="row">
+      <h5>Main section</h5>
+      <div class="input-field col s6">
+           <input id="mainBg" type="text" name="mainBg" class="validate">
+           <label for="mainBg">background color</label>
+      </div>
+      <div class="input-field col s6">
+           <input id="main_class" type="text" name="main_class" class="validate">
+           <label for="main_class">class</label>
+      </div>
+
+    <!--  <a class="btn" onclick="addForm()">add form</a>
+      <div id='main_form'>
+
+      </div>
+      <div id='form_elements'>
+
+      </div>-->
+    </div>
+
+    <br>
+      <div class="row">
+      <h5>Footer</h5>
+      <div class="input-field col s6">
+           <input id="footerBg" type="text" name="footerBg" class="validate">
+           <label for="footerBg">background color</label>
+      </div>
+      <div class="input-field col s6">
+           <input id="copyright" type="text" name="copyright" class="validate">
+           <label for="copyright">copyright content</label>
+      </div>
+      <div class="input-field col s6">
+           <input id="footer_class" type="text" name="footer_class" class="validate">
+           <label for="footer_class">class</label>
+      </div>
+      <div class="input-field col s6">
+           <input id="postCount" type="number" min='2' max='5' name="postCount" class="validate">
+           <label for="postCount">enter no of footer posts</label>
+      </div>
+      <a class="btn" onclick="addFooterPost()" id="add_ftrPost">add footer post(s)</a>
+      <div id="footer_posts">
+
+      </div>
+    </div>
+    <input type='submit' class='waves-effect waves-light btn' value='submit'>
+    </div>
+    </form>
+    </div>
+    </div>
+
+    <footer>
+
+    </footer>
+  </body>
+</html>

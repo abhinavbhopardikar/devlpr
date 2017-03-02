@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title><%=title%></title>
+    <link rel='stylesheet' href='/stylesheets/style.css' />
+    <link href='http://fonts.googleapis.com/icon?family=Material+Icons' rel='stylesheet'>
+    <link type='text/css' rel='stylesheet' href='/stylesheets/materialize.min.css'  media='screen,projection'/>
+    <script type='text/javascript' src='https://code.jquery.com/jquery-2.1.1.min.js'></script>
+    <script src='/javascripts/materialize.js'></script>
+    <meta name='viewport' content='width=device-width, initial-scale=1.0'/>
+  </head>
+  <body>
+    <nav>
+      <div class='nav-wrapper'>
+      <a href='#' class='brand-logo'>devlpr</a>
+    </div>
+    </nav>
+
+    <div class='row'>
+    <div class='container'>
+      <h4>Application settings (backend)</h4>
+      <br>
+    <form class='col s12' action='/viewhandler' method='post'>
+    <div class='row'>
+      <div class="input-field col s6">
+           <input id="Proj_name" type="text" name="proj_name" class="validate">
+           <label for="proj_name">Project name</label>
+      </div>
+    </div>
+    <br>
+      <div class="row">
+      <h5>View handler settings</h5>
+      <div class="input-field col s6">
+           <input id="view_handler_name" type="text" name="view_handler_name" class="validate">
+           <label for="view_handler_name">view handler name</label>
+      </div>
+    </div>
+    <br>
+
+      <div class="row">
+      <h5>Controller settings</h5>
+      <div class="input-field col s6">
+           <input id="router_name" type="text" name="router_name" class="validate">
+           <label for="router_name">filename of controller</label>
+      </div>
+      <div class="input-field col s12">
+        <select name="db_opern">
+          <option value="" disabled selected>Select DB operation</option>
+          <option value="list">list</option>
+          <option value="search">search</option>
+          <option value="insert">insert</option>
+          <option value="delete">delete</option>
+        </select>
+        <label>Select DB operation</label>
+      </div>
+      <div class="input-field col s6">
+           <input id="trgt_view" type="text" name="trgt_view" class="validate">
+           <label for="trgt_view">target view</label>
+      </div>
+    </div>
+
+    <br>
+      <div class="row">
+      <h5>DB settings</h5>
+      <div class="input-field col s6">
+           <input id="db_name" type="text" name="db_name" class="validate">
+           <label for="db_name">DB name</label>
+      </div>
+      <div class="input-field col s6">
+           <input id="collection_name" type="text" name="collection_name" class="validate">
+           <label for="collection_name">collection name</label>
+      </div>
+    </div>
+    <input type='submit' class='waves-effect waves-light btn' value='submit'>
+    </div>
+    </form>
+    </div>
+    </div>
+
+    <footer>
+
+    </footer>
+  </body>
+</html>

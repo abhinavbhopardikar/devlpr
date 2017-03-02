@@ -1,0 +1,141 @@
+{
+  "filename":"",
+  "bgColor": "",
+  "title": "",
+  "header": "",
+  "class": "",
+  "nav": {
+    "class": "",
+    "dropdown": {
+      "name":"",
+      "contents": [
+        {
+          "name": "",
+          "link": ""
+        },
+        {
+          "name": "",
+          "link": ""
+        },
+        {
+          "name": "",
+          "link": ""
+        },
+        {
+          "name": "",
+          "link": ""
+        },
+        {
+          "name": "",
+          "link": ""
+        }
+      ]
+    },
+    "form": {
+      "elements": [
+        {
+          "name": "",
+          "type": "",
+          "placeholder": "",
+          "value": ""
+        }
+      ],
+      "action": "",
+      "method": ""
+    },
+    "logo": "",
+    "bgColor": "",
+    "type": "",
+    "contents": [
+      {
+        "name": "",
+        "link": ""
+      },
+      {
+        "name": "",
+        "link": ""
+      },
+      {
+        "name": "",
+        "link": ""
+      },
+      {
+        "name": "",
+        "link": ""
+      },
+      {
+        "name": "",
+        "link": ""
+      }
+    ]
+  },
+  "main": {
+    "bgColor": "",
+    "type": "",
+    "posts": {
+      "data": "collection"
+    },
+    "form": {
+      "elements": [
+        {
+          "name": "",
+          "type": "",
+          "placeholder": "",
+          "value": ""
+        },
+        {
+          "name": "",
+          "type": "",
+          "placeholder": "",
+          "value": ""
+        },
+        {
+          "name": "",
+          "type": "",
+          "placeholder": "",
+          "value": ""
+        },
+        {
+          "name": "",
+          "type": "",
+          "placeholder": "",
+          "value": ""
+        },
+        {
+          "name": "",
+          "type": "",
+          "placeholder": "",
+          "value": ""
+        }
+      ]
+    },
+    "class": ""
+  },
+  "footer": {
+    "bgColor": "",
+    "class": "",
+    "copyright": "",
+    "contents": [
+      {
+        "title": "",
+        "text": ""
+      },
+      {
+        "title": "",
+        "text": ""
+      },
+      {
+        "title": "",
+        "text": ""
+      },
+      {
+        "title": "",
+        "text": ""
+      },
+      {
+        "title": "",
+        "text": ""
+      }
+    ]
+  }
+}

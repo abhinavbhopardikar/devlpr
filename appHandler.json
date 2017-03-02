@@ -1,0 +1,17 @@
+{
+  "projectName": "",
+  "viewSettings": {
+    "createHandler": "",
+    "appTitle": "",
+    "appHeader": ""
+  },
+  "routerSettings": {
+    "filename": "",
+    "view": "",
+    "dbOperation": ""
+  },
+  "dbSettings": {
+    "dbName": "",
+    "collection": ""
+  }
+}
