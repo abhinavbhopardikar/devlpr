@@ -151,12 +151,12 @@ Schema for every collection used throughout the project must be maintained in a 
 ```javascript
 var mongoose = require('mongoose');
 var index = new mongoose.Schema({
-	//enter schema of the collection used by the contoller 'index'
+ //enter schema of the collection used by the contoller 'index'
  //ex: 'key':String,
 });
 
 var new_route = new mongoose.Schema({
-	//enter schema of the collection used by the contoller 'new_route'
+ //enter schema of the collection used by the contoller 'new_route'
  //ex: 'key':String,
 });
 
