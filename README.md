@@ -104,7 +104,7 @@ The files of generated application are in the *workspace* directory.
 ```
 If the targeted view has to interact with the DB, then the value of *data* key in *posts* must be set to "collection".
 
-### build controllers, connect application to the database...
+### Build controllers, connect application to the database...
 
 ```JSON
 {
