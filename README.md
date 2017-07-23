@@ -133,7 +133,7 @@ The *view* key in the *routerSettings* is the view rendered by the controller an
 5. ""  
 
 ### Initializing the development process
-devlpr listens on port 4000. Use *npm start* command to start the web server.
+*devlpr* listens on port 4000. Use *npm start* command to start the web server.
 
 Go to *localhost:4000* in the web browser and build the entire project or just another controller, viewhandler, form, searchbar.
 The generated project listens on port 3000.
@@ -142,7 +142,7 @@ The generated project listens on port 3000.
 *parentHandler* and *appHandler* can be initialized using forms.
 
 ### Final tweaks
-Although devlpr generates a working application, few lines of code must be written by the user.
+Although *devlpr* generates a working application, few lines of code must be written by the user.
 
 #### Writing schema for a collection
 Schema for every collection used throughout the project must be maintained in a file *schema.js* in the project directory.
