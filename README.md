@@ -1,6 +1,6 @@
 **devlpr** is an easy-to-use code-generating/automation tool for web development. It generates a full stack web application based on inputs in **JSON** format. The resultant application is in MVC format and it uses modules such as **expressjs**, **mongoDB**, **mongoose** as the object modeling tool for mongoDB, **ejs** as the view engine, **materialize.css** and core **node.js** modules.
 
-##Documentation
+## Documentation
 The inputs are parsed using two JSON files
 
 1. *parentHandler.json* : Contains data required for frontend development.
@@ -8,7 +8,7 @@ The inputs are parsed using two JSON files
 
 The files of generated application are in the *workspace* directory.
 
-###Build view handler
+### Build view handler
 *parentHandler.json* builds a json file in *viewhandlers* directory of your project. This file sets the targeted view.
 
 ```JSON
@@ -70,7 +70,7 @@ The files of generated application are in the *workspace* directory.
           {
             "name": "name1",
             "type": "text",
-            "placeholder": "form element2",
+            "placeholder": "form element1",
             "value": ""
           },
           {
@@ -104,7 +104,7 @@ The files of generated application are in the *workspace* directory.
 ```
 If the targeted view has to interact with the DB, then the value of *data* key in *posts* must be set to "collection".
 
-###build controllers, connect application to the database...
+### build controllers, connect application to the database...
 
 ```JSON
 {
@@ -132,19 +132,19 @@ The *view* key in the *routerSettings* is the view rendered by the controller an
 4. "insert"
 5. ""  
 
-###Initializing the development process
+### Initializing the development process
 devlpr listens on port 4000. Use *npm start* command to start the web server.
 
 Go to *localhost:4000* in the web browser and build the entire project or just another controller, viewhandler, form, searchbar.
 The generated project listens on port 3000.
 
-###Initializing the JSON files
+### Initializing the JSON files
 *parentHandler* and *appHandler* can be initialized using forms.
 
-###Final tweaks
+### Final tweaks
 Although devlpr generates a working application, few lines of code must be written by the user.
 
-####Writing schema for a collection
+#### Writing schema for a collection
 Schema for every collection used throughout the project must be maintained in a file *schema.js* in the project directory.
 
 **schema.js**
