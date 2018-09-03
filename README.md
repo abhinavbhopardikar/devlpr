@@ -145,7 +145,7 @@ The generated project listens on port 3000.
 Although *devlpr* generates a working application, few lines of code must be written by the user.
 
 #### Writing schema for a collection
-Schema for every collection used throughout the project must be maintained in a file *schema.js* in the project directory.
+Schema for every collection used throughout the project must be maintained in the file *schema.js* in project directory.
 
 **schema.js**
 ```javascript
